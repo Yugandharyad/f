@@ -1,0 +1,12 @@
+/* custom-offcanvas-style.css */
+/* .custom-offcanvas {
+    max-width: 50%; /* Adjust the width as per your requirement 
+  } */
+  .offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm{
+    --bs-offcanvas-height: none;
+   }
+  .offcanvas-header {
+    padding: none;
+   }
+
+    
