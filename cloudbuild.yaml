@@ -1,10 +1,12 @@
 steps:
-#install  node packages
+# Install node packages
 - name: 'gcr.io/cloud-builders/npm'
-args: ['install']
-#build productive files
+  args: ['install']
+  
+# Build productive files
 - name: 'gcr.io/cloud-builders/npm'
-args: ['run','build','--prod']
-#deploy to google cloud app engine
+  args: ['run', 'build', '--prod']
+  
+# Deploy to Google Cloud App Engine
 - name: 'gcr.io/cloud-builders/npm'
-args: ['app','deploy','--version=prod']
+  args: ['app', 'deploy', '--version=prod']
