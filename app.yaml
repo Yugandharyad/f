@@ -7,9 +7,6 @@ handlers:
   static_files: dist/ampleclogic/index.html
   upload: dist/ampleclogic/index.html
 
-- url: /
-  static_dir: dist/ampleclogic
-
 skip_files:
 - e2e/
 - node_modules/

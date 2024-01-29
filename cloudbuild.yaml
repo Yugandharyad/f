@@ -9,4 +9,5 @@ steps:
   
 # Deploy to Google Cloud App Engine
 - name: 'gcr.io/cloud-builders/npm'
-  args: ['app', 'deploy', '--version=prod']
+  args: ['app', 'deploy', '--version=prod', '--bucket=democicdangular-staging']
+
